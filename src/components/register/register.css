@@ -1,0 +1,81 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.register-box {
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.register-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.register-box form {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+
+.register-box input[type="text"],
+.register-box input[type="password"],
+.register-box input[type="number"],
+.register-box input[type="checkbox"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: calc(100% - 20px); /* Account for padding and border */
+}
+
+.register-box input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.register-box label {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.register-box button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.register-box button:hover {
+    background-color: #0056b3;
+}
+
+.register-box p {
+    margin-top: 20px;
+    color: #666666;
+}
+
+.register-box p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-box p a:hover {
+    text-decoration: underline;
+}
